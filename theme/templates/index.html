@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }}{% endblock %}
+
+{% block content %}
+    <div class="main" id="main">
+        <div class="p-override">
+        {% for article in articles %}
+            <h2><a href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
+            <p style="font-size: 18px; font-family: 'Roboto Slab'">{{ article.locale_date }}</p>
+            {{ article.summary }}
+            {% if articles[loop.index] %}
+                <br>
+                <p style="text-align: center; font-family: 'Dancing Script'">&lt;br&gt;</p>
+                <br>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+{% endblock %}

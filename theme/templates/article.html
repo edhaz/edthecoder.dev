@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+
+{% block content %}
+<div class="main p-override">
+    <h1>{{ article.title }}</h1>
+    <p style="font-family: 'Roboto Slab'">{{ article.locale_date }}</p>
+    {{ article.content }}
+    {% if article.tags %}
+      {% for tag in article.tags %}
+        <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}

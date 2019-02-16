@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #444444;
+}
+
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+.left { grid-area: left; }
+.right { grid-area: right; }
+.footer { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'left header header header header header header right'
+      'left main main main main main main right'
+      'footer footer footer footer footer footer footer footer';
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.everything-width {
+    max-width: 700px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header #main {
+    width: 700px;
+}
+
+.article {
+    font-size: 20px; 
+}
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+}
+
+p, h2, h3, h4, h5 {
+    margin: 4px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif
+}
+
+h1 {
+    margin: 0;
+}
+
+a, a:active, a:visited {
+    color: #444444;
+}
+
+.link-font {
+    font-size: 25px;
+}
+
+.hr-long {
+    height: 10px;
+    background-color: #fe7f9c;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border: 0;
+}
+
+.hr-long2 {
+    height: 3px;
+    background-color: #fe7f9c;
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+}
+
+.p-override > p {
+    padding-bottom: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-scroll {
+    width: 95vw;
+    overflow-y: auto;
+    max-width: 700px;
+}
+
+::selection {
+    background: #fee1e8;
+}
+
+::-moz-selection {
+    background: #fee1e8;
+}
+
+/* Taken from CSS tricks https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}

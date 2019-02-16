@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="description" content="Ed Hazledine is a Python and flask programmer. He's a self-taught developer and currently open for work.">
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab|Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118566588-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118566588-1');
+    </script>
+</head>
+
+<body>
+    <hr class="hr-long"/>
+    <div class="everything-width">
+        <div class="grid-container">
+            <div class="header" id="header">
+                <a style="text-decoration: none" href="/"><h1 style="font-size: 50px">{{ SITENAME }}</h1></a>
+                <p style="font-size: 24px;">I'm Ed, a <strong>web developer, podcaster,</strong> and <strong>teacher.</strong></p>
+                <div class="link-font">
+                    &nbsp;<a href="/about.html">About</a>&nbsp;
+                    <a href="/portfolio.html">Portfolio</a>&nbsp;
+                    <a href="https://aquestionofcode.com">Podcast</a>&nbsp;
+                    <a href="https://twitter.com/edPython">Twitter</a>&nbsp;
+                    <hr style="margin: 20px;"/>
+                </div>
+            </div>
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    <div id="footer">
+        <hr class="hr-long2"/>
+        <p><i class="fas fa-copyright"></i> E. Hazledine 2019</p>
+    </div>
+</body>
+</html>
