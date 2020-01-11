@@ -1,8 +1,8 @@
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     margin: 0;
-    background-color: #f9f9f9;
-    color: #444444;
+    background-color: #fbfbfb;
+    color: #333;
 }
 
 .header { grid-area: header; }
@@ -47,11 +47,6 @@ p, h2, h3, h4, h5 {
     margin: 4px;
 }
 
-p {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif
-}
-
 h1 {
     margin: 0;
 }
@@ -66,7 +61,7 @@ a, a:active, a:visited {
 
 .hr-long {
     height: 10px;
-    background-color: #fe7f9c;
+    background-color: #ef3066;
     padding: 0;
     margin: 0 auto;
     margin-bottom: 5px;
@@ -75,7 +70,15 @@ a, a:active, a:visited {
 
 .hr-long2 {
     height: 3px;
-    background-color: #fe7f9c;
+    background-color: #ef3066;
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+}
+
+.hr-long3 {
+    height: 3px;
+    background-color: #f2527f;
     padding: 0;
     margin: 0 auto;
     border: 0;

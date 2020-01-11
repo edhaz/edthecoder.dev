@@ -8,7 +8,7 @@
     <meta name="description"
         content="Ed Hazledine is a Python and flask programmer. He's a self-taught developer and currently open for work.">
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab|Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab|Dancing+Script|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,25 +27,25 @@
     <div class="everything-width">
         <div class="grid-container">
             <div class="header" id="header">
-                <a style="text-decoration: none" href="/">
-                    <h1 style="font-size: 50px">{{ SITENAME }}</h1>
+                <a style="text-decoration: none;" href="/">
+                    <h1 style="font-size: 70px; font-family: 'Poiret One'">edTheCoder<span style="font-size: 20px">.dev</span></h1>
                 </a>
-                <p style="font-size: 24px;">I'm Ed, a <strong>web developer, podcaster,</strong> and
-                    <strong>teacher.</strong></p>
-                <div class="link-font">
-                    &nbsp;<a href="/about.html">About</a>&nbsp;
-                    <a href="/portfolio.html">Portfolio</a>&nbsp;
-                    <a href="https://aquestionofcode.com">Podcast</a>&nbsp;
-                    <a href="https://twitter.com/ed_the_coder">Twitter</a>&nbsp;
-                    <hr style="margin: 20px;" />
+                <div style="color: #181818" class="link-font">
+                    &nbsp;<a href="/portfolio.html">portfolio</a>&nbsp;
+                    <a href="https://twitter.com/ed_the_coder" target="_blank">twitter</a>&nbsp;
+                    <a href="https://aquestionofcode.com" target="_blank">podcast</a>&nbsp;
+                    <a href="/about.html">about</a>
                 </div>
+                <p style="color: #282828; font-size: 20px; margin-top: 18px; margin-bottom: 15px;">I'm <a href="about.html">Ed Hazledine</a>, a self-taught <strong>software developer</strong> and <strong>podcaster.</strong>
+            <hr class="hr-long3" style="margin-bottom: 30px" />
+                </p>
             </div>
             {% block content %}{% endblock %}
         </div>
     </div>
     <div id="footer">
         <hr class="hr-long2" />
-        <p><i class="fas fa-copyright"></i> E. Hazledine 2019</p>
+        <p style="color: #585858; margin: 12px"><i class="fas fa-copyright"></i> ELH 2020</p>
     </div>
 </body>
 
