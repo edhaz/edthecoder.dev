@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Raleway', serif;
     margin: 0;
     background-color: #fbfbfb;
     color: #333;
@@ -22,20 +22,19 @@ body {
     padding: 5px;
 }
 
+.main {
+    /* margin-bottom: 15px; */
+}
+
+.article-content {
+    margin-top: 10px;
+}
+
 .everything-width {
     max-width: 700px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#header #main {
-    width: 700px;
-}
-
-.article {
-    font-size: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
 }
 
 #footer {
@@ -47,8 +46,45 @@ p, h2, h3, h4, h5 {
     margin: 4px;
 }
 
-h1 {
+.title {
+    font-size: 70px;
+    font-family: 'Poiret One';
     margin: 0;
+}
+
+.title-link {
+    text-decoration: none;
+}
+
+.domain {
+    font-size: 20px;
+}
+
+.subtitle {
+    color: #282828;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-device-width: 640px) {
+    .everything-width {
+        padding: 0 15px;
+    }
+
+    .title {
+        font-size: 50px !important;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
+    .link-font {
+        font-size: 19px !important;
+    }
+
+    .hr-middle {
+        margin-bottom: 5px !important;
+    }
 }
 
 a, a:active, a:visited {
@@ -56,10 +92,11 @@ a, a:active, a:visited {
 }
 
 .link-font {
+    color: #181818;
     font-size: 25px;
 }
 
-.hr-long {
+.hr-top {
     height: 10px;
     background-color: #ef3066;
     padding: 0;
@@ -68,24 +105,22 @@ a, a:active, a:visited {
     border: 0;
 }
 
+.hr-middle {
+    height: 3px;
+    background-color: #f2527f;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 0;
+}
+
 .hr-long2 {
     height: 3px;
     background-color: #ef3066;
     padding: 0;
     margin: 0 auto;
+    margin-bottom: 3px !important;
     border: 0;
-}
-
-.hr-long3 {
-    height: 3px;
-    background-color: #f2527f;
-    padding: 0;
-    margin: 0 auto;
-    border: 0;
-}
-
-.p-override > p {
-    padding-bottom: 20px;
 }
 
 table {
@@ -134,6 +169,6 @@ blockquote p {
     display: inline;
 }
 
-.no-underline > a {
+/* .no-underline > a {
     text-decoration: none;
-}
+} */

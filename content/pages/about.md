@@ -3,15 +3,17 @@ Slug: about
 Save_as: about.html
 Template: about
 
-Software Developer
----
+Software Developer  
+---  
 
-I used to be a teacher, but decided that wasn't the career for me. The great thing about developing software is anyone can do it if you have the time and energy! I spent two years of evenings, weekends, and holidays learning how to build websites and code using Python, and it paid off! I ended up getting a job using C# and C++ 🤷 (luckily it does involve some Python). If you're currently in the process of making that career change I'd love to hear from you. See my contact details below or [send me a tweet](https://twitter.com/ed_the_coder)!
+I used to be a teacher, but decided that wasn't the career for me. The great thing about developing software is anyone can do it if you have the time and energy! I spent two years of evenings, weekends, and holidays learning how to build websites and code using Python, and it paid off! I ended up getting a job using C# and C++ 🤷 (luckily it does involve some Python). If you're currently in the process of making that career change I'd love to hear from you. See my contact details below or [send me a tweet](https://twitter.com/ed_the_coder)!  
+<br />
 
 Podcaster[<img src="{static}/images/aqoclogo.png" alt="A Question of Code podcast logo" style="max-width: 150px; width: auto; float: right; padding: 10px">](https://aqoc.dev)
 ---
 
-I originally started podcasting to become a better coder (and it's still working!) but it's something I really enjoy doing and want to do more of. I co-host my podcast [A Question of Code](https://aqoc.dev) (including doing the editing/promoting) with my brother [Tom](https://tomhazledine.com).
+I originally started podcasting to become a better coder (and it's still working!) but it's something I really enjoy doing and want to do more of. I co-host my podcast [A Question of Code](https://aqoc.dev) (including doing the editing/promoting) with my brother [Tom](https://tomhazledine.com).  
+<br />  
 
 A list of other skills (including modesty...)
 ---

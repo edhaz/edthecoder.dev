@@ -3,12 +3,12 @@
 {% block title %}{{ article.title }}{% endblock %}
 
 {% block content %}
-<div class="main" style="margin-bottom: 15px;">
+<div class="main">
   <h1>{{ article.title }}</h1>
   <p style="color: #8f8f8f; font-size: 18px;">{{ article.locale_date }}</p>
   &nbsp;  
   {{ article.content }}
-  <div style="margin-top: 20px">
+  <div class="article-content">
     {% if article.tags %}
     {% for tag in article.tags %}
     <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>{% if not loop.last %} {% endif %} 

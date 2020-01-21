@@ -8,8 +8,8 @@ Template: portfolio
 [Scales Web App](https://scales.edhazledine.com)
 ----
 
-<a href="https://scales.edhazledine.com"><img src="{static}/images/coming-soon-scales.png" 
-     alt="Rugby API" 
+<a href="https://scales.edthecoder.dev"><img src="{static}/images/coming-soon-scales.png"
+     alt="Rugby API"
      style="max-width: 300px;
             display: block;
             border: 1px solid #efefef021a40;
@@ -27,7 +27,7 @@ will need to login to use the site.
 [Rugby Union Premiership Table and API](https://rugby.edhazledine.com)
 ----
 
-<a href="https://rugby.edhazledine.com"><img src="{static}/images/rugby.png" 
+<a href="https://rugby.edthecoder.dev"><img src="{static}/images/rugby.png" 
      alt="Rugby API" 
      style="max-width: 300px;
             display: block;
@@ -43,7 +43,7 @@ of the table data.
 &nbsp;  
 <p style="color: #d3d3d3; font-size: 25px; text-align: center; font-family: monospace">&#9839;</p>
 
-[My personal site](https://edhazledine.com)
+[My personal site](https://edthecoder.dev)
 ----
 
 I created this site using a static site generator created in Python called Pelican.
