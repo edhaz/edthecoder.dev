@@ -1,4 +1,5 @@
 title: How hexadecimal helped me understand binary / 2
+summary: The second part in looking at different ways of understanding numbers; binary and hexadecimal.
 slug: hexidecimal-part-2
 category: Learning to Code
 tags: binary, Computer Science, hexadecimal, programming

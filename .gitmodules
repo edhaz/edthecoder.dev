@@ -1,5 +1,4 @@
 [submodule "output"]
 	path = output
-	url = git@github.com:edhaz/edhazledine.com.git
+	url = git@github.com:edhaz/edthecoder.dev.git
     ignore = all
-
