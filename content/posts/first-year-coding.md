@@ -1,4 +1,5 @@
 title: Lessons learnt in my first year of coding (while being a full time music teacher)
+summary: Some useful insights on learning to code when you've got a full time job!
 slug: first-year-coding
 category: Learning to Code
 tags: coding, programming, learning, teaching,

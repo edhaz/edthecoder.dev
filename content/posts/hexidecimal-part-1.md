@@ -1,4 +1,5 @@
 title: How hexadecimal helped me understand binary / 1 
+summary: A look at different ways of understanding numbers; binary and hexadecimal.
 slug: hexidecimal-part-1
 category: Learning to Code
 tags: binary, bitmap, C, hexadecimal, programming

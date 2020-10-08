@@ -1,4 +1,5 @@
 Title: Why am I learning to code?
+Summary: A look into why I decided to change career from being a teacher to working in code.
 Slug: why-am-i-learning
 Category: Learning to Code
 Tags: C, Computer Science, CS50, Learning to Code, Programming, Python

@@ -6,19 +6,11 @@
 <div class="main" id="main">
     <div>
         {% for article in articles %}
-        <h2 style="font-size: 23px;"><a style="text-decoration: none;"
+        <h2 class="article-title"><a style="text-decoration: none;"
                 href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
-        <p style="color: #8f8f8f; font-size: 18px;">{{ article.locale_date }}</p>
-        <br>
-        <div style="font-size: 18px; color: #555;">{{ article.summary }}</div>
-
-        {% if articles[loop.index] %}
-        <p style="color: #d3d3d3; font-size: 25px; text-align: center; font-family: monospace; margin-top: 15px">&#9839;</p>
-        <br>
-        <br>
-        {% else %}
-        <br>
-        {% endif %}
+        <div class="flex">
+            <p class="article-date">{{ article.locale_date }}</p>
+        </div>
         {% endfor %}
     </div>
 </div>

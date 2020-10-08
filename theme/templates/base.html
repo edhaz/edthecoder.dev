@@ -5,10 +5,11 @@
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Ed Hazledine is a Python and flask programmer. He's a self-taught developer and currently open for work.">
+    <meta name="description" content="Ed Hazledine is a Python and flask programmer. He's a self-taught developer.">
+    <link rel="icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab|Dancing+Script|Poiret+One|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab|Dancing+Script|Poiret+One|Raleway"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,16 +37,19 @@
                     <a href="https://aquestionofcode.com" target="_blank">podcast</a>&nbsp;
                     <a href="/about.html">about</a>
                 </div>
-                <p class="subtitle">I'm <a href="about.html">Ed Hazledine</a>, a self-taught <strong>software developer</strong> and <strong>podcaster.</strong>
-            <hr class="hr-middle" />
+                {% if page_name == "index" %}
+                <p class="subtitle">I'm <a class="name" href="about.html">Ed Hazledine</a>, a self-taught
+                    <strong>software developer</strong> and <strong>podcaster.</strong>
                 </p>
+                {% endif %}
+                <hr class="hr-middle" />
             </div>
             {% block content %}{% endblock %}
         </div>
     </div>
-    <div id="footer">
+    <div id="footer" class="footer">
         <hr class="hr-long2" />
-        <p style="color: #585858; margin: 12px"><i class="fas fa-copyright"></i> ELH 2020</p>
+        <p class="footer-text"><i class="fas fa-copyright"></i> ELH 2020</p>
     </div>
 </body>
 
