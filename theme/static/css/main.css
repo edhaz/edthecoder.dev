@@ -30,6 +30,11 @@ p, h2, h3, h4, h5 {
     padding: 5px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .page-title {
     padding-bottom: 20px;
 }
@@ -61,7 +66,7 @@ p, h2, h3, h4, h5 {
 
 .article-title {
     font-style: bold;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .article-content {
@@ -71,7 +76,13 @@ p, h2, h3, h4, h5 {
 .article-date {
     color: #9f9f9f;
     font-size: 18px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.article-tag {
+    color: #9f9f9f;
+    font-size: 18px;
+    padding-bottom: 20px;
 }
 
 .article-summary {
@@ -118,6 +129,10 @@ p, h2, h3, h4, h5 {
 
 .name {
     color: #ef3066;
+}
+
+.link-font {
+    padding-top: 3px;
 }
 
 .link-font > a {
