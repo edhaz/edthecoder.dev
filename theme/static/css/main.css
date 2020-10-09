@@ -11,6 +11,15 @@ a, a:active, a:visited {
 
 p, h2, h3, h4, h5 {
     margin: 4px;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 170%;
+}
+
+img {
+    padding-bottom: 10px;
 }
 
 .header { grid-area: header; }
@@ -277,4 +286,6 @@ blockquote p {
         color: #dacdff !important;
     }
 
+    blockquote {
+        background: #777;
 }
