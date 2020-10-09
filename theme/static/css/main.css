@@ -238,3 +238,43 @@ blockquote p {
         font-size: 19px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: white;
+    }
+
+    a, a:active, a:visited {
+        color: #f9f9f9;
+    }
+
+    .subtitle {
+        color: #ccc;
+    }
+
+    .footer-text {
+        color: #f9f9f9;
+    }
+
+    .hr-top {
+        background-color: #6d3cff;
+    }
+
+    .hr-middle {
+        background-color: #8f6aff;
+    }
+
+    .hr-long2 {
+        background-color: #6d3cff;
+    }
+
+    .link-font > a {
+        color: #c0acff;
+    }
+
+    .name {
+        color: #dacdff !important;
+    }
+
+}
