@@ -1,4 +1,4 @@
-title: How hexadecimal helped me understand binary / 2
+title: How hexadecimal helped me understand binary, part 2
 summary: The second part in looking at different ways of understanding numbers; binary and hexadecimal.
 slug: hexidecimal-part-2
 category: Learning to Code
@@ -13,12 +13,11 @@ While learning about hexadecimal I came across the programming mode my computers
 
 <img src="{static}/images/prog-calc.png" 
      alt="Hexidecimal table 1" 
-     style="max-width: 100%;
-            width: auto;"
+     class="article-image"
             />
 
 The picture is the aforementioned calculator and the drop down list gives you the options to convert what you've typed in into a different base. It also allows you to see how these numbers work in binary, with 64 digits of binary laid out for you, with the option of turning them on and off as you like (it says 63 in the calculator, remember in computer science you count from 0!) This has proved extremely useful for me and almost negates the need to get into the grit of understanding hexadecimal, however I still think it's really important to understand what you're using to prevent further issues down the line, so don't just use this as a cop out.
 
 To round this rambling up, I'll just say this: being able to see side by side how hexadecimal and binary are converted from a decimal number was the one thing that helped me understand the different bases the most. Hopefully this will be able to give you a clearer understanding of different bases too!
 
-**"All your base are belong to us"**
+> **All your base are belong to us**

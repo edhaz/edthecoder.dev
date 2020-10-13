@@ -6,10 +6,13 @@
 <div class="main" id="main">
     <div>
         {% for article in articles %}
-        <h2 class="article-title"><a style="text-decoration: none;"
-                href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
-        <div class="flex">
-            <p class="article-date">{{ article.locale_date }}</p>
+        <h2 class="article-title">
+            <a href=" /{{ article.slug }}.html">{{ article.title }}</a>
+        </h2>
+        <div class="flex article-info">
+            <p>{{ article.locale_date }}</p>
+            <p>~</p>
+            <p>{{ article.category }}</p>
         </div>
         {% endfor %}
     </div>

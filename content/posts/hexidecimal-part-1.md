@@ -1,4 +1,4 @@
-title: How hexadecimal helped me understand binary / 1 
+title: How hexadecimal helped me understand binary, part 1 
 summary: A look at different ways of understanding numbers; binary and hexadecimal.
 slug: hexidecimal-part-1
 category: Learning to Code
@@ -13,7 +13,7 @@ This week the CS50x course I am working through is teaching (more accurately get
 In decimal we count, 0, 1, 2, ... 8, 9 and then we have to add another digit to get to 10 (two digits). Whereas in hexadecimal when we get past nine we use the letters a to f (which take up one digit (or bit in a computers perspective)). See this table for a clearer picture of this:
 
 <div class="table-scroll">
-<table cellspacing="0">
+<table class="table" cellspacing="0">
 <colgroup width="85"></colgroup>
 <colgroup span="10" width="20"></colgroup>
 <colgroup span="6" width="28"></colgroup>
@@ -59,7 +59,6 @@ In decimal we count, 0, 1, 2, ... 8, 9 and then we have to add another digit to 
 </tbody>
 </table>
 </div>
-&nbsp;
 
 This means we can write bigger numbers in a shorter number of bits (digits).
 
@@ -72,7 +71,7 @@ In hexadecimal the first digit of `FF` is 15, but it actually represents 240 (15
 Let's clarify this a little with one more example using a table. The number is 345. Here it is in decimal (base 10):
 
 <div class="table-scroll">
-<table cellspacing="0">
+<table class="table" cellspacing="0">
 <colgroup width="85"></colgroup>
 <colgroup span="3" width="39"></colgroup>
 <colgroup width="85"></colgroup>
@@ -108,12 +107,11 @@ Let's clarify this a little with one more example using a table. The number is 3
 </tbody>
 </table>
 </div>
-&nbsp;
 
 Whereas if we had 345 in hexadecimal (base 16) it would look like this:
 
 <div class="table-scroll">
-<table cellspacing="0">
+<table class="table" cellspacing="0">
 <colgroup width="85"></colgroup>
 <colgroup span="3" width="39"></colgroup>
 <colgroup width="85"></colgroup>
@@ -149,7 +147,6 @@ Whereas if we had 345 in hexadecimal (base 16) it would look like this:
 </tbody>
 </table>
 </div>
-&nbsp;
 
 See if you can work out the hexadecimal versions of these decimal numbers: 11, 78, 613. _Use the tables to help_.
 
