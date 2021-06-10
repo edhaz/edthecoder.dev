@@ -25,5 +25,6 @@ jobs:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_KEY }}
+          rm: true
           source: "output/*"
           target: "${{ secrets.REMOTE_DIR }}"
