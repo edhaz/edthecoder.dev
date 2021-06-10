@@ -1,7 +1,3 @@
-[submodule "output"]
-	path = output
-	url = git@github.com:edhaz/edthecoder.dev.git
-    ignore = all
 [submodule "edthecoder.dev"]
 	path = edthecoder.dev
 	url = git@github.com:edhaz/edthecoder.dev.git
