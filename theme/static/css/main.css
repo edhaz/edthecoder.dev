@@ -189,16 +189,13 @@ p {
     font-weight: bold;
     font-family: 'Poiret One';
     margin: 0;
-    padding: 0;
 }
 
 .title-link {
-    width: 50%;
     text-decoration: none;
 }
 
 .domain {
-    width: auto;
     font-size: 20px;
 }
 
@@ -304,28 +301,7 @@ blockquote p {
 .fa-external-link-alt {
     font-size: 15px;
     padding-left: 5px;
-    margin-bottom: 2px;
-}
-
-#change-theme {
-    display: none;
-}
-
-.label {
-    display: inline-block;
-    padding: 6px;
-    position: absolute;
-    top: 15px;
-    right: 6px;
-    background: #000;
-}
-
-.label:hover {
-    /* cursor: pointer; */
-}
-
-#change-theme:checked + .label {
-    background: #fff;
+    padding-bottom: 2px;
 }
 
 @media screen and (max-device-width: 640px) {
@@ -355,8 +331,8 @@ blockquote p {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: var(--background-color);
-        color: var(--primary-font-color);
+        background-color: #212121;
+        color: white;
     }
 
     a, a:active, a:visited {
@@ -372,11 +348,11 @@ blockquote p {
     }
 
     .hr-top .hr-middle .hr-long2 {
-        background-color: var(--horizontal-color);
+        background-color: #e94560;
     }
 
     .link-font > a {
-        color: var(--horizontal-color);
+        color: #e94560;
     }
 
     blockquote {

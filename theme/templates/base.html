@@ -13,45 +13,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script>
-        window.onload = () => {
-            const changeTheme = document.getElementById("change-theme");
-
-            if (localStorage.getItem('dark')) {
-                changeTheme.checked = true;
-                document.documentElement.setAttribute('data-theme', 'dark');
-            } else {
-                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                    changeTheme.checked = true;
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                } else {
-                    changeTheme.checked = false;
-                    document.documentElement.setAttribute('data-theme', 'light');
-                }
-            }
-
-            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-                const newColorScheme = e.matches ? "dark" : "light";
-                if (newColorScheme == "dark") {
-                    changeTheme.checked = true;
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                } else {
-                    changeTheme.checked = false;
-                    document.documentElement.setAttribute('data-theme', 'light');
-                }
-            });
-
-            changeTheme.addEventListener('click', (e) => {
-                if (e.target.checked) {
-                    localStorage.setItem('dark', true)
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                }
-                else {
-                    localStorage.setItem('dark', false)
-                    document.documentElement.setAttribute('data-theme', 'light');
-                }
-            });
-        }
-
     </script>
 </head>
 
@@ -63,7 +24,6 @@
                 <a class="title-link" href="/">
                     <h1 class="title">edTheCoder<span class="domain">.dev</span></h1>
                 </a>
-                <label><input id="change-theme" type="checkbox"><span class="label"></span></label>
                 <div class="link-font">
                     &nbsp;<a href="/portfolio.html">portfolio</a>&nbsp;
                     <a href="https://twitter.com/ed_the_coder" target="_blank">twitter<i
