@@ -137,6 +137,14 @@ p {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
+/* code {
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    background-color: #222;
+} */
+
+
 .tags {
     margin-top: 20px;
     align-items: center;
