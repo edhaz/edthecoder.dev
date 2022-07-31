@@ -23,7 +23,7 @@ Currently living in Cornwall, UK (a beautiful part of the country and where I gr
             width: auto;"
             />
 
-I am currently working at [Bluefruit Software](https://www.bluefruit.co.uk/).  
+I am currently working for Turner & Townsend.  
 
 🤔 Got a question? You can contact me here: [edhazledine@gmail.com](mailto:edhazledine@gmail.com).
 

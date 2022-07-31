@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Edmund Hazledine'
-SITENAME = 'Ed Hazledine'
+AUTHOR = 'Edmund Kent-Hazledine'
+SITENAME = 'Ed Kent-Hazledine'
 SITEURL = ''
 THEME = './theme'
 
