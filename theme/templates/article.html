@@ -13,10 +13,12 @@
   <div class="article-content">
     {{ article.content }}
   </div>
-  <div class="flex tags">
+  <div class="tags">
     {% if article.tags %}
     {% for tag in article.tags %}
-    <a class="tag" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %} {% endif %}
+    <div class="tag">
+      <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %} {% endif %}
+    </div>
     {% endfor %}
     {% endif %}
   </div>

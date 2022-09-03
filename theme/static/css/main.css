@@ -183,18 +183,24 @@ p {
     margin-top: 20px;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .tag {
-    color: #888;
     background: #eee;
-    text-decoration: none;
     border-radius: 3px;
     padding: 4px 6px;
     margin: 5px;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.tag>a {
+    color: #888;
+    text-decoration: none;
 }
 
 .table {
@@ -213,6 +219,12 @@ p {
     font-weight: bold;
     font-family: 'Poiret One';
     margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 50px;
+    }
 }
 
 .title-link {
@@ -238,6 +250,12 @@ p {
     text-decoration: none;
     color: #ff84a7;
     font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .link-font>a {
+        font-size: 18px;
+    }
 }
 
 .link-font>a:hover {
