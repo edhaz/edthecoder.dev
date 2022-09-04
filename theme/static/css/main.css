@@ -1,5 +1,6 @@
 :root {
     --background-color: #fbfbfb;
+    --code-background-color: #fff;
     --link-color: #444;
     --primary-font-color: #333;
     --secondary-font-color: #9f9f9f;
@@ -8,6 +9,7 @@
 
 [data-theme="dark"] {
     --background-color: #212121;
+    --code-background-color: #000;
     --link-color: white;
     --primary-font-color: white;
     --horizontal-color: #e94560;
@@ -143,19 +145,29 @@ p {
     display: block;
 }
 
-.article-image {
-    border-radius: 4px;
+.image-container {
     max-width: 90%;
     width: auto;
     margin: 20px;
+}
+
+.image-container>figcaption {
+    text-align: center;
+}
+
+.image-right {
+    float: right;
+}
+
+.image-right>img {
+    max-width: 252px;
+}
+
+.article-image {
+    border-radius: 4px;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
-}
-
-.article-image-right {
-    max-width: 252px;
-    float: right;
 }
 
 .article-content>h2 {
@@ -167,17 +179,25 @@ p {
 .article-content>p {
     padding-bottom: 8px;
     font-size: 18px;
-    /* font-weight: lighter; */
     font-family: 'Open Sans', serif;
 }
 
-/* code {
-    margin-top: 10px;
-    padding: 15px 20px;
-    border-radius: 4px;
-    background-color: #222;
-} */
+code {
+    font-family: monospace;
+    font-size: inherit;
+}
 
+/* Code in text */
+p>code,
+li>code,
+dd>code,
+td>code {
+    background-color: #eaeaea;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+}
 
 .tags {
     margin-top: 20px;
@@ -219,12 +239,6 @@ p {
     font-weight: bold;
     font-family: 'Poiret One';
     margin: 0;
-}
-
-@media screen and (max-width: 600px) {
-    .title {
-        font-size: 50px;
-    }
 }
 
 .title-link {
@@ -347,7 +361,7 @@ blockquote p {
     padding-bottom: 2px;
 }
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-width: 640px) {
     .everything-width {
         padding: 0 5px;
     }
@@ -368,7 +382,7 @@ blockquote p {
     }
 
     .link-font>a {
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 
@@ -415,5 +429,12 @@ blockquote p {
 
     .table {
         background-color: #555;
+    }
+
+    p>code,
+    li>code,
+    dd>code,
+    td>code {
+        background-color: #303030;
     }
 }

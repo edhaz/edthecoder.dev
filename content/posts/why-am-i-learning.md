@@ -11,9 +11,11 @@ Escher, Bach: an Eternal Golden Braid](https://www.amazon.co.uk/Godel-Escher-Bac
 by Douglas R. Hofstadter which is what initially got me interested in computers. I've
 always tinkered but I never really understood what was going on 'under the hood'.
 
-<img src="{static}/images/geb.jpg"
-     alt="GEB"
-     class="article-image article-image-right" />
+<figure class="image-container image-right">
+     <img src="{static}/images/geb.jpg"
+          alt="GEB"
+          class="article-image" />
+</figure>
 
 After finishing **Gödel, Escher, Bach** I started looking into what it would take to get into artificial intelligence and machine learning. It turns out these are in vogue at the moment but the learning curve and the years it would take to get to a position where I could get a job in the field seemed too large. I then found my way to **[Codecademy](https://codecademy.com)** which is a great free resource for getting started in learning to code. I had previously started working on the Python course a year or two earlier but this time I stuck it through and completed the course. I decided to create a new account than pick up from where I was last time, clean slate and all that. Persistence is key. Just because you may have not got very far last time doesn't mean you won't this time. Push through and don't get caught up too much thinking about what happened the last time you tried.
 
