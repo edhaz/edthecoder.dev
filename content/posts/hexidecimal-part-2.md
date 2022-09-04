@@ -11,10 +11,12 @@ With this post I just wanted to quickly add a part 2 to my first post regarding 
 
 While learning about hexadecimal I came across the programming mode my computers calculator (currently running elementary OS, a Linux distro). I had seen this sort of calculator before but didn't have any idea what it was for (back in my 'Windows is awesome!' days :/ ). Now it has become extremely useful and really helped bridge the gap between hexadecimal, decimal and binary.  You can type in a number in decimal and it will give it to you in hexadecimal, binary, and even octal (I'd never come across this before, but as you can probably guess it is base 8).
 
-<img src="{static}/images/prog-calc.png" 
-     alt="Hexidecimal table 1" 
-     class="article-image"
-            />
+<figure class="image-container">
+     <img src="{static}/images/prog-calc.png" 
+          alt="Screenshot of a programmer's calculator" 
+          class="article-image"
+               />
+</figure>
 
 The picture is the aforementioned calculator and the drop down list gives you the options to convert what you've typed in into a different base. It also allows you to see how these numbers work in binary, with 64 digits of binary laid out for you, with the option of turning them on and off as you like (it says 63 in the calculator, remember in computer science you count from 0!) This has proved extremely useful for me and almost negates the need to get into the grit of understanding hexadecimal, however I still think it's really important to understand what you're using to prevent further issues down the line, so don't just use this as a cop out.
 

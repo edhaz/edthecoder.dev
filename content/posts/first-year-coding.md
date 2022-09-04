@@ -7,10 +7,12 @@ date: 2019-02-16
 
 I’ve been learning to code now for just over a year. I’m not yet at a point where I’ve got myself a job, but have learnt a lot over that time. I’m also a secondary school (high school for you US readers) music teacher and have been doing this for almost four years now. As a musician you gain many useful insights and experience of practicing one thing (an instrument) over a long period of time and as a teacher I’ve looked at a lot of pedagogy (how you learn). Hopefully some of the insights below can help you on your coding journey, but just remember, this is what I’ve learnt. I’m giving my advice, but it won’t necessarily work for everyone.  
   
-<img src="{static}/images/learning.jpg" 
-     alt="Hexidecimal table 1" 
-     class="article-image"
-            />
+<figure class="image-container">
+     <img src="{static}/images/learning.jpg" 
+          alt="A classroom table with ABC blocks on it" 
+          class="article-image"
+               />
+</figure>
 
 ## Consistency is king
 
@@ -28,10 +30,12 @@ Coding alone often has its uses. You can really focus on the topic you’re work
 
 This is where having someone to turn to can help. And it doesn’t have to be a physical presence in the room. I am part of a few different communities on Slack, and in most of these if I’m really stuck I can just post a question or a code snippet and people will get back to me and help. I don’t remember seeing any negative comments on these groups. The people there are there to help. So I would suggest getting yourself signed up for the [Code Newbies](https://codenewbie.slack.com/join/shared_invite/enQtMzAxNTYxMzg0NDMzLWY5ZmQ1NjMxMzU0MmQ0NWY1Yjc1ZTYyODkwMWI4YmU0OWNlODU2ZTQ2Zjg1ZmU2NzA3MGQ5MTNlYjc0MjQzZTI) group and the [100DaysOfCode](https://100xcode.slack.com/join/shared_invite/enQtNDA4MjgzMTY5MTA3LTEyMjBhYzMzYzM5NTFjZDU0MGMxZjA3Zjk5NTVjMTA1ZjRmNDNiMGNiNDIzMjg2Yjk4OTRhZGUwZmJjNDFmY2E) group. These are both great communities to get help from if you’re new. Don’t forget, once you’ve got a bit of experience under your belt, that’s the time to give back to those in need and remember you were clueless once too!
 
-<img src="{static}/images/community.jpg" 
-     alt="Hexidecimal table 1" 
-     class="article-image"
-            />
+<figure class="image-container">
+     <img src="{static}/images/community.jpg" 
+          alt="Four people with their arms around each other watching a sunset" 
+          class="article-image"
+               />
+</figure>
 
 ## Teach it
 

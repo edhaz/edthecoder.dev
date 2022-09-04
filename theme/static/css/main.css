@@ -145,10 +145,9 @@ p {
     display: block;
 }
 
-.image-container {
-    max-width: 90%;
+.image-container>img {
+    max-width: 100%;
     width: auto;
-    margin: 20px;
 }
 
 .image-container>figcaption {
@@ -383,6 +382,14 @@ blockquote p {
 
     .link-font>a {
         font-size: 18px;
+    }
+
+    .image-right {
+        float: none;
+    }
+
+    .image-right>img {
+        max-width: 100%;
     }
 }
 
