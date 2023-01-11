@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Edmund Kent-Hazledine'
 SITENAME = 'Ed Kent-Hazledine'
-SITEURL = ''
+SITEURL = 'https://edthecoder.dev'
 THEME = './theme'
 
 PATH = 'content'

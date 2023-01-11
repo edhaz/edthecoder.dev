@@ -5,7 +5,7 @@ Template: about
 
 ## Software Developer  
 
-My original career was as a secondary school Music teacher, but once I started learning to code, I realised it was time for a change. The great thing about developing software is it's possible for anyone to learn if you have the time, energy, and motivation. I spent two years of evenings, weekends, and holidays learning how to build websites and code using Python, and it paid off! My first job was in embedded development learning new languages such as C and C++ (but still using lots of Python too). My current work is now mostly Python, working with the web fraemwork Flask. If you're currently in the process of making that career change I'd love to hear from you. See my contact details below or [send me a tweet](https://twitter.com/ed_the_coder).
+My original career was as a secondary school Music teacher, but once I started learning to code, I realised it was time for a change. The great thing about developing software is it's possible for anyone to learn if you have the time, energy, and motivation. I spent two years of evenings, weekends, and holidays learning how to build websites and code using Python, and it paid off! My first job was in embedded development learning new languages such as C and C++ (but still using lots of Python too). My current work is now mostly Python, working with the web fraemwork Flask. If you're currently in the process of making that career change I'd love to hear from you. See my contact details below.
 <br />
 <br />
 
