@@ -3,6 +3,8 @@ Slug: portfolio
 Save_as: portfolio.html
 Template: portfolio
 
+### [Scales helper](https://scales.edthecoder.dev)
+
 <a href="https://scales.edthecoder.dev"><img src="{static}/images/coming-soon-scales.png"
      alt="Rugby API"
      class="portfolio-image"
@@ -14,9 +16,11 @@ will need to login to use the site.
 
 <br>
 
-__Python // Flask // SQL // Javascript  // HTML // CSS__
+__Python // Flask // SQL // Javascript // HTML // CSS__
 
 <p class="article-divider">&#9839;</p>
+
+### [Rugby table](https://rugby.edthecoder.dev)
 
 <a href="https://rugby.edthecoder.dev"><img src="{static}/images/rugby.png" 
      alt="Rugby API" 
@@ -26,7 +30,8 @@ This scrapes the web weekly using a cron job for the latest English Rugby Premie
 scores and then displays them on a table. There is also an API end point to the entirety
 of the table data.  
 <br>
-__Python // Flask // HTML // CSS__
+
+__Python // Flask // SQL // Javascript // HTML // CSS__
 
 <p class="article-divider">&#9839;</p>
 
@@ -36,4 +41,5 @@ I created this site using a static site generator created in Python called Pelic
 It is created using CSS Grid and is the second iteration of my website, which previously
 used Bootstrap.  
 <br>
+
 __Pelican // HTML // CSS__

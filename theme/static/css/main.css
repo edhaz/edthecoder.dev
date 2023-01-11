@@ -335,7 +335,7 @@ blockquote {
     border-left: 10px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+    quotes: "\201C" "\201D" "\2018" "\2019";
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
@@ -372,8 +372,8 @@ blockquote p {
     }
 
     .portfolio-image {
-        max-width: 100%;
-        width: 100vw;
+        max-width: 80%;
+        width: 80vw;
     }
 
     .article-title {
