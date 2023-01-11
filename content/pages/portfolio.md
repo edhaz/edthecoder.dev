@@ -3,7 +3,7 @@ Slug: portfolio
 Save_as: portfolio.html
 Template: portfolio
 
-### [Scales helper](https://scales.edthecoder.dev)
+### [Scales practice helper](https://scales.edthecoder.dev)
 
 <a href="https://scales.edthecoder.dev"><img src="{static}/images/coming-soon-scales.png"
      alt="Rugby API"

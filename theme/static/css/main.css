@@ -372,8 +372,8 @@ blockquote p {
     }
 
     .portfolio-image {
-        max-width: 80%;
-        width: 80vw;
+        max-width: 100%;
+        width: 100vw;
     }
 
     .article-title {
