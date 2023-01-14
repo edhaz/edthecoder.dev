@@ -1,13 +1,13 @@
-Title: Portfolio
-Slug: portfolio
-Save_as: portfolio.html
-Template: portfolio
+Title: Projects
+Slug: projects
+Save_as: projects.html
+Template: projects
 
 ### [Scales practice helper](https://scales.edthecoder.dev)
 
 <a href="https://scales.edthecoder.dev"><img src="{static}/images/coming-soon-scales.png"
-     alt="Rugby API"
-     class="portfolio-image"
+     alt="Scales practice helper logo - a treble clef with the letter S inside it"
+     class="project-image"
             /></a>
 
 This is a web app for practicing scales. You get given a random list of the scales used
@@ -23,12 +23,14 @@ __Python // Flask // SQL // Javascript // HTML // CSS__
 ### [Rugby table](https://rugby.edthecoder.dev)
 
 <a href="https://rugby.edthecoder.dev"><img src="{static}/images/rugby.png" 
-     alt="Rugby API" 
-     class="portfolio-image"
+     alt="Rugby API Logo - an black outline of a rugby ball" 
+     class="project-image"
             /></a>
+
 This scrapes the web weekly using a cron job for the latest English Rugby Premiership
 scores and then displays them on a table. There is also an API end point to the entirety
 of the table data.  
+
 <br>
 
 __Python // Flask // SQL // Javascript // HTML // CSS__

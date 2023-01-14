@@ -83,7 +83,7 @@ p {
     padding-bottom: 20px;
 }
 
-.portfolio-image {
+.project-image {
     max-width: 200px;
     border: 1px solid #efefef;
     margin-bottom: 20px;
@@ -371,17 +371,21 @@ blockquote p {
         margin-left: 3px;
     }
 
-    .portfolio-image {
+    .project-image {
         max-width: 100%;
-        width: 100vw;
+        margin: 10px auto;
     }
 
     .article-title {
         font-size: 20px;
     }
 
+    .link-font {
+        width: fit-content
+    }
+
     .link-font>a {
-        font-size: 18px;
+        font-size: 1.5rem;
     }
 
     .image-right {
