@@ -5,16 +5,16 @@ Template: projects
 
 > Note: I'm currently moving to a new server setup for my projects, so these will be temporarily unavailable while I'm experimenting!
 
-### [Scales practice helper](https://scales.edthecoder.dev)
+### [practicemyscales.com](https://practicemyscales.com)
 
-<a href="https://scales.edthecoder.dev"><img src="{static}/images/coming-soon-scales.png"
+<a href="https://practicemyscales.com"><img src="{static}/images/scales.png"
      alt="Scales practice helper logo - a treble clef with the letter S inside it"
      class="project-image"
             /></a>
 
 This is a web app for practicing scales. You get given a random list of the scales used
 by ABRSM in their exams. This app uses a SQLite database to enable user accounts. You
-will need to login to use the site.
+will need to register and login to use the site.
 
 <br>
 
