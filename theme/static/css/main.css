@@ -1,18 +1,26 @@
 :root {
     --background-color: #fbfbfb;
-    --code-background-color: #fff;
+    --code-background-color: #eaeaea;
     --link-color: #444;
     --primary-font-color: #333;
     --secondary-font-color: #9f9f9f;
     --horizontal-color: #ef3066;
+    --subtitle-color: #666;
+    --blockquote-background: #f9f9f9;
+    --tag-background: #eee;
+
+
 }
 
 [data-theme="dark"] {
     --background-color: #212121;
-    --code-background-color: #000;
+    --code-background-color: #303030;
     --link-color: white;
     --primary-font-color: white;
     --horizontal-color: #e94560;
+    --subtitle-color: #ccc;
+    --blockquote-background: #777;
+    --tag-background: #444;
 }
 
 body {
@@ -102,7 +110,7 @@ p {
 }
 
 .footer-text {
-    color: #585858;
+    color: var(--primary-font-color);
     padding-top: 8px;
     padding-bottom: 10px;
 }
@@ -191,7 +199,7 @@ p>code,
 li>code,
 dd>code,
 td>code {
-    background-color: #eaeaea;
+    background-color: var(--code-background-color);
     word-wrap: break-word;
     box-decoration-break: clone;
     padding: .1rem .3rem .2rem;
@@ -208,7 +216,7 @@ td>code {
 }
 
 .tag {
-    background: #eee;
+    background: var(--tag-background);
     border-radius: 3px;
     padding: 4px 6px;
     margin: 5px;
@@ -218,11 +226,12 @@ td>code {
 }
 
 .tag>a {
-    color: #888;
+    color: var(--link-color);
     text-decoration: none;
 }
 
 .table {
+    background-color: var(--code-background-color);
     margin: 20px 0;
 }
 
@@ -249,7 +258,7 @@ td>code {
 }
 
 .subtitle {
-    color: #666;
+    color: var(--subtitle-color);
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -261,7 +270,7 @@ td>code {
 
 .link-font>a {
     text-decoration: none;
-    color: #ff84a7;
+    color: var(--horizontal-color);
     font-size: 25px;
 }
 
@@ -331,7 +340,7 @@ th {
 
 /* Taken from CSS tricks https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 blockquote {
-    background: #f9f9f9;
+    background: var(--blockquote-background);
     border-left: 10px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
@@ -397,55 +406,20 @@ blockquote p {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #212121;
-        color: white;
-    }
+.floating-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: var(--primary-font-color);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
 
-    a,
-    a:active,
-    a:visited {
-        color: white;
-    }
-
-    .subtitle {
-        color: #ccc;
-    }
-
-    .footer-text {
-        color: #f9f9f9;
-    }
-
-    .hr-top .hr-middle .hr-long2 {
-        background-color: #e94560;
-    }
-
-    .link-font>a {
-        color: #e94560;
-    }
-
-    blockquote {
-        background: #777;
-    }
-
-    .article-info {
-        color: #bbb;
-    }
-
-    .tag {
-        color: #999;
-        background: #444;
-    }
-
-    .table {
-        background-color: #555;
-    }
-
-    p>code,
-    li>code,
-    dd>code,
-    td>code {
-        background-color: #303030;
-    }
+.theme-switch-icon path {
+    fill: var(--background-color);
 }

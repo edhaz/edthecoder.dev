@@ -12,10 +12,75 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script>
+        window.onload = function () {
+            const container = document.getElementById('webPage');
+
+            // This function will execute itself when the script is loaded
+            (function () {
+                const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                let preferredTheme = localStorage.getItem('theme');
+                console.log(preferredTheme)
+                if (preferredTheme === null) {
+                    preferredTheme = prefersDarkMode === 'dark' ? 'light' : 'dark'
+                }
+                container.setAttribute('data-theme', preferredTheme);
+            })();
+        }
+
+        function darkMode() {
+            const container = document.getElementById('webPage');
+            let targetTheme = container.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            container.setAttribute('data-theme', targetTheme);
+            localStorage.setItem('theme', targetTheme);
+        }
     </script>
 </head>
 
-<body>
+<body id="webPage" class="container" data-theme="light">
+    <button class="floating-button" onclick="darkMode()">
+        <svg class="theme-switch-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="24pt" height="24pt"
+            viewBox="0 0 512 512" fill="currentColor">
+            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                <path d="M2475 5101 c-49 -23 -89 -64 -109 -113 -24 -57 -22 -279 3 -333 63
+-136 232 -166 337 -61 54 53 64 93 64 241 0 95 -4 128 -19 160 -49 106 -173
+154 -276 106z" />
+                <path d="M1328 4800 c-107 -32 -176 -146 -149 -246 13 -48 103 -208 140 -248
+133 -144 381 -30 358 165 -7 60 -100 227 -156 281 -54 51 -125 69 -193 48z" />
+                <path d="M3640 4781 c-49 -27 -71 -52 -135 -164 -82 -143 -85 -221 -12 -304
+82 -93 226 -96 309 -7 14 16 51 74 82 129 49 88 56 106 56 155 -1 128 -85 211
+-212 210 -32 -1 -67 -8 -88 -19z" />
+                <path d="M2360 4349 c-451 -51 -883 -283 -1173 -628 -665 -792 -536 -1965 284
+-2592 672 -513 1606 -487 2257 64 446 377 685 975 621 1555 -24 217 -77 401
+-173 597 -185 375 -466 656 -836 834 -308 148 -648 207 -980 170z m526 -449
+c511 -122 913 -539 1026 -1063 29 -135 31 -398 5 -530 -73 -365 -284 -686
+-586 -890 -144 -97 -370 -191 -514 -212 l-47 -7 0 1361 c0 1290 1 1361 18
+1361 9 0 53 -9 98 -20z" />
+                <path d="M481 3938 c-152 -27 -218 -222 -113 -337 48 -52 218 -149 274 -157
+161 -22 287 145 219 291 -22 48 -57 81 -136 127 -131 77 -169 89 -244 76z" />
+                <path d="M4560 3940 c-38 -7 -72 -23 -165 -78 -79 -46 -114 -79 -136 -127 -74
+-160 86 -341 252 -283 45 15 198 104 227 131 56 51 80 157 54 228 -34 87 -138
+145 -232 129z" />
+                <path d="M125 2751 c-168 -78 -164 -314 7 -385 57 -24 279 -22 333 3 131 59
+165 230 67 335 -51 54 -93 66 -237 66 -105 0 -138 -4 -170 -19z" />
+                <path d="M4655 2751 c-168 -78 -164 -314 7 -385 57 -24 279 -22 333 3 131 59
+165 230 67 335 -51 54 -93 66 -237 66 -105 0 -138 -4 -170 -19z" />
+                <path d="M610 1670 c-50 -15 -206 -112 -242 -149 -122 -128 -29 -343 151 -345
+52 -1 67 5 162 58 117 65 152 94 180 148 20 40 25 120 10 161 -16 40 -73 99
+-116 118 -41 19 -102 23 -145 9z" />
+                <path d="M4354 1655 c-72 -36 -107 -89 -112 -169 -7 -110 31 -159 193 -250 89
+-50 106 -56 158 -56 123 0 207 83 207 205 0 61 -22 115 -62 152 -12 12 -67 47
+-122 78 -125 72 -182 81 -262 40z" />
+                <path d="M1385 861 c-54 -25 -83 -59 -144 -166 -59 -103 -75 -153 -66 -204 30
+-165 228 -235 346 -123 39 38 126 180 147 241 58 166 -123 326 -283 252z" />
+                <path d="M3565 861 c-83 -37 -133 -129 -121 -219 8 -56 105 -227 157 -274 84
+-77 208 -70 287 16 64 69 73 155 27 246 -35 69 -89 156 -114 184 -57 63 -158
+83 -236 47z" />
+                <path d="m2475 571 c-49 -23 -89 -64 -109 -113 -24 -57 -22 -279 3 -333 65
+-140 247 -167 348 -52 43 49 53 91 53 222 0 131 -10 173 -53 222 -61 69 -161
+92 -242 54z" />
+            </g>
+        </svg>
+    </button>
     <hr class="hr-top" />
     <div class="everything-width">
         <div class="grid-container">
