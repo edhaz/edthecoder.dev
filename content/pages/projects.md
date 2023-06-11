@@ -3,6 +3,8 @@ Slug: projects
 Save_as: projects.html
 Template: projects
 
+> Note: I'm currently moving to a new server setup for my projects, so these will be temporarily unavailable while I'm experimenting!
+
 ### [Scales practice helper](https://scales.edthecoder.dev)
 
 <a href="https://scales.edthecoder.dev"><img src="{static}/images/coming-soon-scales.png"
