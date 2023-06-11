@@ -13,7 +13,6 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script>
         window.addEventListener('DOMContentLoaded', function () {
-            const body = document.body;
             const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
             let preferredTheme = localStorage.getItem('theme');
 
@@ -22,6 +21,7 @@
                 localStorage.setItem('theme', preferredTheme);
             }
 
+            const body = document.body;
             body.setAttribute('data-theme', preferredTheme);
 
             function darkMode() {
