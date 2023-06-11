@@ -12,27 +12,28 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script>
-        window.onload = function () {
-            const container = document.getElementById('webPage');
+        window.addEventListener('DOMContentLoaded', function () {
+            const body = document.body;
+            const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            let preferredTheme = localStorage.getItem('theme');
 
-            // This function will execute itself when the script is loaded
-            (function () {
-                const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                let preferredTheme = localStorage.getItem('theme');
-                console.log(preferredTheme)
-                if (preferredTheme === null) {
-                    preferredTheme = prefersDarkMode === 'dark' ? 'light' : 'dark'
-                }
-                container.setAttribute('data-theme', preferredTheme);
-            })();
-        }
+            if (preferredTheme === null) {
+                preferredTheme = prefersDarkMode ? 'dark' : 'light';
+                localStorage.setItem('theme', preferredTheme);
+            }
 
-        function darkMode() {
-            const container = document.getElementById('webPage');
-            let targetTheme = container.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-            container.setAttribute('data-theme', targetTheme);
-            localStorage.setItem('theme', targetTheme);
-        }
+            body.setAttribute('data-theme', preferredTheme);
+
+            function darkMode() {
+                const currentTheme = body.getAttribute('data-theme');
+                const targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+                body.setAttribute('data-theme', targetTheme);
+                localStorage.setItem('theme', targetTheme);
+            }
+
+            window.darkMode = darkMode;
+        });
     </script>
 </head>
 
