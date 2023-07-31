@@ -5,7 +5,7 @@ Template: about
 
 ## Software Developer  
 
-My original career was as a secondary school Music teacher, but once I started learning to code, I realised it was time for a change. The great thing about developing software is it's possible for anyone to learn if you have the time, energy, and motivation. I spent two years of evenings, weekends, and holidays learning how to build websites and code using Python, and it paid off! My first job was in embedded development learning new languages such as C and C++ (but still using lots of Python too). My current work is now mostly Python, working with the web framework Flask as well as spending lots of time working on SQL databases. If you're currently in the process of making that career change I'd love to hear from you. See my contact details below.
+My original career was as a secondary school Music teacher, but once I started learning to code, I realised it was time for a change. The great thing about developing software is it's possible for anyone to learn if you have the time, energy, and motivation. I spent two years of evenings, weekends, and holidays learning how to build websites and code using Python, and it paid off! My first job was in embedded development learning new languages such as C and C++ (but still using lots of Python too). My current work is now mostly Python, working with the web framework Flask as well as spending lots of time working on SQL databases. If you're currently in the process of making that career change I'd love to hear from you.
 <br />
 <br />
 
@@ -14,8 +14,8 @@ My original career was as a secondary school Music teacher, but once I started l
 I used to co-host a podcast [A Question of Code](https://aqoc.dev) (including doing the editing/promoting).  
 <br />
 
-Currently I live in Cornwall, UK (a beautiful part of the country and where I grew up).
-<br />
+<span style="text-align:center">[Email](mailto:edhazledine@gmail.com) | [Github](https://github.com/edhaz)  | [LinkedIn](https://www.linkedin.com/in/ed-kent-hazledine-595855a2)</span>
+
 <br />
 
 <img src="{static}/images/cornishsun.jpeg"
@@ -23,9 +23,3 @@ Currently I live in Cornwall, UK (a beautiful part of the country and where I gr
      style="max-width: 100%;
             width: auto;"
             />
-
-I am currently working for Turner & Townsend.  
-
-Feel free to send me a email with any questions: [edhazledine@gmail.com](mailto:edhazledine@gmail.com).
-
-[Check out my github here.](https://github.com/edhaz)  

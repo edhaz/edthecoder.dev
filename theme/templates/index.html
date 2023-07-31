@@ -10,9 +10,7 @@
             <a href=" /{{ article.slug }}.html">{{ article.title }}</a>
         </h2>
         <div class="flex article-info">
-            <p>{{ article.locale_date }}</p>
-            <p>~</p>
-            <p>{{ article.category }}</p>
+            <p>{{ article.date|strftime('%-d %B %Y') }}</p>
         </div>
         {% endfor %}
     </div>
