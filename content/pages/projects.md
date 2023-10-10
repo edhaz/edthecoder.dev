@@ -3,7 +3,16 @@ Slug: projects
 Save_as: projects.html
 Template: projects
 
-> Note: I'm currently moving to a new server setup for my projects, so these will be temporarily unavailable while I'm experimenting!
+### [Chicken breed predictor](https://huggingface.co/spaces/edthecoder/chicken_breeds)
+
+A machine learning model for predicting the breed of a chicken based on an image. It was built using fast.ai, with a
+frontend on Hugging Face. The notebook is available to view on kaggle [here](https://www.kaggle.com/code/edkenthazledine/chicken-breed-predictor-98-accuracy) and you can read more about the project on my blog post [here](https://edthecoder.dev/machine-learning-chickens.html).
+
+<br>
+
+__Python // fast.ai // Machine Learning__
+
+<p class="article-divider">&#9839;</p>
 
 ### [practicemyscales.com](https://practicemyscales.com)
 
@@ -22,10 +31,24 @@ __Python // Flask // SQL // Javascript // HTML // CSS__
 
 <p class="article-divider">&#9839;</p>
 
+### [This site!](https://edthecoder.dev)
+
+I created this site using a static site generator created in Python called Pelican.
+It is created using CSS Grid and is the second iteration of my website, which previously
+used Bootstrap.  
+
+<br>
+
+__Pelican // HTML // CSS__
+
+<p class="article-divider">&#9839;</p>
+
+> Note: I'm currently experimenting with a new server for some of my projects, so the rugby table is currently offline.
+
 ### [Rugby table](https://rugby.edthecoder.dev)
 
-<a href="https://rugby.edthecoder.dev"><img src="{static}/images/rugby.png" 
-     alt="Rugby API Logo - an black outline of a rugby ball" 
+<a href="https://rugby.edthecoder.dev"><img src="{static}/images/rugby.png"
+     alt="Rugby API Logo - an black outline of a rugby ball"
      class="project-image"
             /></a>
 
@@ -36,14 +59,3 @@ of the table data.
 <br>
 
 __Python // Flask // SQL // Javascript // HTML // CSS__
-
-<p class="article-divider">&#9839;</p>
-
-### [This site!](https://edthecoder.dev)
-
-I created this site using a static site generator created in Python called Pelican.
-It is created using CSS Grid and is the second iteration of my website, which previously
-used Bootstrap.  
-<br>
-
-__Pelican // HTML // CSS__
