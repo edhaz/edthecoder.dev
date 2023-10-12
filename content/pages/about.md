@@ -14,7 +14,7 @@ My original career was as a secondary school Music teacher, but once I started l
 I used to co-host a podcast [A Question of Code](https://aqoc.dev) (including doing the editing/promoting).  
 <br />
 
-<span style="text-align:center">[Email](mailto:edhazledine@gmail.com) | [Github](https://github.com/edhaz)  | [LinkedIn](https://www.linkedin.com/in/ed-kent-hazledine-595855a2)</span>
+<span style="text-align:center">[Email](mailto:ed@edthecoder.dev) | [Github](https://github.com/edhaz)  | [LinkedIn](https://www.linkedin.com/in/ed-kent-hazledine-595855a2)</span>
 
 <br />
 
